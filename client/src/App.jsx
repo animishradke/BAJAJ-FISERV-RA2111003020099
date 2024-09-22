@@ -11,7 +11,7 @@ function App() {
     try {
       const parsedInput = JSON.parse(jsonInput);
       const res = await fetch(
-        "https://bajaj-finserv-rho-peach.vercel.app/bfhl",
+        "https://bajaj-fiserv.vercel.app/bfhl",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
